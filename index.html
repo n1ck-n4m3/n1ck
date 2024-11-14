@@ -48,6 +48,15 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            animation: moveBackground 20s linear infinite;
+        }
+        @keyframes moveBackground {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
         }
         #showcase h1 {
             font-size: 3rem;
